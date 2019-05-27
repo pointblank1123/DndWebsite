@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    background-image: url("../images/index_back.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2, h3, h4, p {
+    font-family: 'Stylish', sans-serif;
+}
+
+/* Header */
+
+.header-left {
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.header-center {
+    text-align: left;
+    padding-left: 2px;
+    font-family: 'Montaga', serif;
+}
+
+.header-right {
+    text-align: right;
+    padding-right: 40px;
+    font-family: 'Montaga', serif;
+}
+
+.header-style {
+    margin: 0;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+    border-bottom: 3px solid white;
+    background-image: url("../images/div-card3.png");
+}
+
+.logo-style {
+    width: 100px; 
+    padding-bottom: 30px;
+}
+
+.title-style {
+    color: white;
+    font-size: 2.4em;
+    margin-left: 20px;
+    margin: bottom: 20px;
+}
+
+.signup-style {
+    color: white;
+    text-decoration: none;
+    border: 3px solid white;
+    padding: 5px;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 10px;
+    font-size: 0.7em;
+}
+
+.signup-style:hover {
+    background-color: #4e0707;
+}
+
+/* Main Content */
+
+.main-style {
+    margin-top: 20px;
+    margin-right: 26%;
+    margin-left: 26%;
+    border: 3px solid white;
+    background-image: url("../images/div-card3.png");
+}
+
+.login-style {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    padding-top: 40px;
+    padding-bottom: 60px;
+
+    text-align: center;
+    background-image: url(../images/scroll-back.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.login-text-style {
+    color: black;
+    text-shadow: 1px 1px white;
+    font-size: 1.6em;
+}
+
+input[type=text], select {
+    background-color: #ecce98;
+    display: inline-block;
+    padding: 2px;
+    border: 1px solid #d2a561;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Stylish', sans-serif;
+    font-size: .6em;
+  }
+
+  input[type=password], select {
+    background-color: #ecce98;
+    display: inline-block;
+    padding: 2px;
+    border: 1px solid #d2a561;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Stylish', sans-serif;
+    font-size: .6em;
+  }
+  
+  input[type=submit] {
+    background-color: #e3c48e;
+    padding: 5px;
+    color: black;
+    border: 2px solid #e3c48e;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Stylish', sans-serif;
+    font-size: 1.3em;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #bb8847;
+    border: 2px solid #bb8847;
+  }
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    color: white;
+    border-top: 3px solid white;
+    background-image: url("../images/div-card3.png");
+}
+
+/* Grid Layout */
+
+.header-right { grid-area: headright; }
+.header-center { grid-area: headcenter; }
+.header-left { grid-area: headleft; }
+.main { grid-area: main; }
+.footer { grid-area: footer; }
+
+.grid-container {
+    grid-template-columns: 0.4fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    display: grid;
+    grid-template-areas:
+      'headleft headcenter headcenter headcenter headcenter headcenter headright headright'
+      'main main main main main main main main'
+      'footer footer footer footer footer footer footer footer';
+    grid-gap: 0;
+    padding: 0;
+  }
+  
+  .grid-container  .grid-div {
+    
+    font-size: 1em;
+  }

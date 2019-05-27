@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    background-image: url("../images/index_back.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2, h3, h4, p {
+    font-family: 'Stylish', sans-serif;
+}
+
+/* Header */
+
+
+
+.header-center {
+    text-align: center;
+    padding-left: 2px;
+    font-family: 'Montaga', serif;
+    background-image: url("../images/div-card3.png");
+}
+
+.logo-style {
+    width: 100px; 
+    padding-bottom: 30px;
+}
+
+/* Main Content */
+
+.main-style {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+input[type=submit] {
+    background-image: url("../images/div-card3.png");
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    border: 5px solid #810606;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Stylish', sans-serif;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px black;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #bb4747;
+    border: 5px solid #bb4747;
+  }
+
+  .content-style {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.creator-style {
+    width: 75%;
+}
+
+.identity-style {
+    color: blue;
+}
+
+.ability-style {
+    color: red;
+}
+
+.prof-key {
+    background-color: yellow;
+}
+
+.skill-style {
+    color: green;
+}
+
+.checkbox {
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    padding-bottom: 1px;
+    width: 100%;
+    color: white;
+    border-top: 3px solid white;
+    background-image: url("../images/div-card3.png");
+}
+
+/* Grid Layout */
+
+  .grid-div {
+    font-size: 1em;
+  }

@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    background-image: url("../images/index_back.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2, h3, h4, p {
+    font-family: 'Stylish', sans-serif;
+}
+
+/* Header */
+
+.header-left {
+    text-align: center;
+    background-image: url("../images/div-card3.png");
+}
+
+.header-center {
+    text-align: center;
+    padding-left: 2px;
+    font-family: 'Montaga', serif;
+    background-image: url("../images/div-card3.png");
+}
+
+.header-right {
+    text-align: center;
+    padding-right: 40px;
+    font-family: 'Montaga', serif;
+    background-image: url("../images/div-card3.png");
+}
+
+.header-style {
+    margin: 0;
+    padding-bottom: 0px;
+    padding-top: 1px;
+    border-bottom: 1px solid white;
+}
+
+.logo-style {
+    width: 100px; 
+    padding-bottom: 30px;
+}
+
+.title-style {
+    color: white;
+    font-size: 2.4em;
+    margin-left: 20px;
+    margin: bottom: 20px;
+}
+
+.signup-style {
+    color: white;
+    text-decoration: none;
+    border: 3px solid white;
+    padding: 5px;
+    background-color: #4e0707;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 10px;
+    font-size: 0.7em;
+}
+
+/* Main Content */
+
+.main-style {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.login-style {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    text-align: center;
+    
+    background-image: linear-gradient(to right, #e0bcb2, #dfc0c0);
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.sheet-style {
+    width: 150px;
+    border: 5px solid white;
+    box-shadow: 3px 3px 3px black;
+}
+
+.newcha-style {
+    margin: 0;
+}
+
+.lvlcha-style {
+    margin-left: 0;
+}
+
+.newcha-style, .lvlcha-style, .stcha-style {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+/* Footer */
+
+.footer {
+    text-align: center;
+    padding-bottom: 1px;
+    width: 100%;
+    color: white;
+    border-top: 3px solid white;
+    background-image: url("../images/div-card3.png");
+}
+
+/* Grid Layout */
+
+  .grid-div {
+    font-size: 1em;
+  }

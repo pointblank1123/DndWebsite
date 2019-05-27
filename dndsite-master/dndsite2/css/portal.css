@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    background-image: url("../images/index_back.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Header */
+
+.header-left {
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.header-center {
+    text-align: left;
+    padding-left: 2px;
+    font-family: 'Montaga', serif;
+}
+
+.header-right {
+    text-align: right;
+    padding-right: 40px;
+    font-family: 'Montaga', serif;
+}
+
+.header-style {
+    margin: 0;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+    border-bottom: 3px solid white;
+    background-image: url("../images/div-card3.png");
+}
+
+.logo-style {
+    width: 100px; 
+    padding-bottom: 30px;
+}
+
+.title-style {
+    color: white;
+    font-size: 2.4em;
+    margin-left: 20px;
+    margin: bottom: 20px;
+}
+
+.signup-style {
+    color: white;
+    text-decoration: none;
+    border: 3px solid white;
+    padding: 5px;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 10px;
+    font-size: 0.7em;
+}
+
+.signup-style:hover {
+    background-color: #4e0707;
+}
+
+/* Main Content */
+
+.main-style {
+    margin-top: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+.sheet-style {
+    width: 150px;
+    border: 5px solid white;
+    box-shadow: 3px 3px 3px black;
+}
+
+.newcha-style {
+    margin: 0;
+}
+
+.lvlcha-style {
+    margin-left: 20%;
+}
+
+.newcha-style, .lvlcha-style, .stcha-style {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    color: white;
+    border-top: 3px solid white;
+    font-family: 'Stylish', sans-serif;
+    background-image: url("../images/div-card3.png");
+}
+
+/* Grid Layout */
+
+.header-right { grid-area: headright; }
+.header-center { grid-area: headcenter; }
+.header-left { grid-area: headleft; }
+.main { grid-area: main; }
+.space-1 { grid-area: spc1; }
+.newcha { grid-area: new; }
+.lvlcha { grid-area: lvl; }
+.stcha { grid-area: sl; }
+.space-2 { grid-area: spc2; }
+.footer { grid-area: footer; }
+
+.grid-container {
+    grid-template-columns: 0.4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    display: grid;
+    grid-template-areas:
+      'headleft headcenter headcenter headcenter headcenter headcenter headright headright'
+      'main main main main main main main main'
+      'spc1 new new lvl lvl sl sl sl'
+      'footer footer footer footer footer footer footer footer';
+    grid-gap: 0;
+    padding: 0;
+  }
+  
+  .grid-container  .grid-div {
+    
+    font-size: 1em;
+  }
